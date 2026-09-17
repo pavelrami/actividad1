@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 14 - Cadena de números</title>
+    <link rel="stylesheet" href="css/estiloform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Determina el número mayor, menor y el promedio</h1>
+        <p>Calculadora que permite analizar una cadena de números para obtener el número mayor, menor y el promedio.</p>
+
+        
+        <form onsubmit="return analizarCadena()">
+            <div class="formulario">
+            <label for="cadena">Ingresa una cadena de números separados por comas:</label>
+            <input type="text" id="cadena" placeholder="Ejemplo: 5,10,15" required>
+            <button type="submit">Analizar</button>
+            <label for="Max">Número mayor:</label>
+            <input type="text" id="MAX" readonly>
+            <label for="Max">Número menor:</label>
+            <input type="text" id="MIN" readonly>
+            <label for="Max">Promedio:</label>
+            <input type="text" id="PROM" readonly>
+            </div>
+
+        </form>
+    </div>
+
+<script src="js/ejercicio14.js"></script>
+
+</body>
+</html>

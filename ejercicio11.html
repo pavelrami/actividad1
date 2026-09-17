@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11 - Convertidor de Kilómetros a Millas</title>
+    <link rel="stylesheet" href="css/estiloform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Convertidor de Kilómetros a Millas</h1>
+        <p>Convierte kilómetros a millas ingresando una cantidad.</p>
+
+        
+        <form onsubmit="return convertir()">
+            <div class="formulario">
+            <label for="kilometros">Ingresa los kilómetros:</label>
+            <input type="number" id="KKK" placeholder="Ejemplo: 10" min="0" required>
+            <button type="submit">Convertir</button>
+            <label for="millas">Resultado en millas:</label>
+            <input type="text" id="MMM" readonly>
+            </div>
+
+        </form>
+    </div>
+
+<script src="js/ejercicio11.js"></script>
+
+</body>
+</html>

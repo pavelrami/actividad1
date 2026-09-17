@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 13 - Determina si puedes votar</title>
+    <link rel="stylesheet" href="css/estiloform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Determina si puedes votar</h1>
+        <p>Ingresa tu edad para verificar si puedes votar.</p>
+
+        
+        <form onsubmit="return verificarVoto()">
+            <div class="formulario">
+            <label for="edad">Ingresa tu edad:</label>
+            <input type="number" id="edad" placeholder="Ejemplo: 20" min="0" required>
+            <button type="submit">Verificar</button>
+            <label for="voto">Resultado:</label>
+            <input type="text" id="voto" readonly>
+            </div>
+
+        </form>
+    </div>
+
+<script src="js/ejercicio13.js"></script>
+
+</body>
+</html>

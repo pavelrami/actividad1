@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0055;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #000000;
+}
+
+.btn-agregar {
+    background-color: #e73529;
+    color: white;
+    border: none;
+}
+
+.btn-agregar:hover {
+    background-color: #cd0000;
+    color: white;
+}
+
+#errorMsg {
+    color: #e73529;
+}
+
+.list-group-item {
+    font-weight: bold;
+}

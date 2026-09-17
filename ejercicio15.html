@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 15 - Nombre y calificación de un estudiante</title>
+    <link rel="stylesheet" href="css/estiloform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Determinar la calificación mayor, menor y el promedio.</h1>
+        <p>Página que permite ingresar varios estudiantes con sus calificaciones y obtener la calificación mayor, menor y promedio.</p>
+
+        
+        <form onsubmit="return analizarEstudiante()">
+            <div class="formulario">
+            <label for="nombre">Ingresa el nombre del estudiante:</label>
+            <input type="text" id="nombre" placeholder="Ejemplo: Noel" required>
+            <label for="calificacion">Calificación del estudiante:</label>
+            <input type="number" id="calificacion" placeholder="Ejemplo: 9.5" step="0.1" min="0" max="10" required>
+            <button type="submit">Añadir Estudiante</button>
+            </div>
+             </form>
+
+             <p class="lista">Estudiantes registrados:</p>
+             <ul id="listaEstudiantes"></ul>
+
+            <div class="formulario2">
+            <form onsubmit="return calcularCalif(estudiantes)">
+                <button type="submit">Calcular </button>
+                <label for="MAX">Calificación mayor:</label>
+                <input type="text" id="MAX" readonly>
+                <label for="MIN">Calificación menor:</label>
+                <input type="text" id="MIN" readonly>
+                <label for="PROM">Promedio:</label>
+                <input type="text" id="PROM" readonly>
+            </form>
+            </div>
+
+            <button type="button" onclick="limpiarTodo()">Limpiar</button>
+    </div>
+
+<script src="js/ejercicio15.js"></script>
+
+</body>
+</html>
