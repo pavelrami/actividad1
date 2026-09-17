@@ -14,11 +14,8 @@ Se puede navegar desde el [index.html](./index.html), que funciona como menú
 con enlaces a cada ejercicio, o entrar directamente al archivo del ejercicio 
 que se quiera revisar.
 
-## Publicación
 
-Este repositorio está publicado con GitHub Pages:
-https://sonnx18.github.io/PrograWeb/
 
 ## Autor
 
-Noel López Herrera - 22161124 - ITO, Ingeniería en Sistemas Computacionales
+León Ramirez Carlos Pavel
