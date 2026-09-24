@@ -15,7 +15,3 @@ con enlaces a cada ejercicio, o entrar directamente al archivo del ejercicio
 que se quiera revisar.
 
 
-
-## Autor
-
-León Ramirez Carlos Pavel
